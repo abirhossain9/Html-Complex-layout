@@ -1,0 +1,355 @@
+body{
+	margin: 0;
+	padding:0;
+}
+.header{
+	background-color: #121B2A;
+}
+.container{
+	width:80%;
+	margin: 0 auto;
+	/*border: 2px solid white;*/
+	overflow: hidden;
+
+}
+.logo{
+	width: 17%;
+	/*border: 1px solid red;*/
+	float:left;
+}
+.logo img
+{
+	width: 100%;
+
+}
+.menu
+{
+    width: 65%;
+    /*border: 1px solid red;*/
+    float: right;
+    margin-top: 25px;
+}
+.menu ul{
+	float: right;
+
+
+}
+.menu ul li
+{
+	list-style: none;
+	float:left;
+
+}
+.menu ul li a
+{
+	color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 16px;
+    display: block;
+    transition: .5s;
+    text-transform: uppercase;
+
+}
+.menu ul li:last-child a
+{
+	padding-right: 0;
+}
+.menu ul li a:hover
+{
+color: #234D73;
+}
+.banner
+{   
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.content{
+	margin-top: 200px;
+	margin-bottom: 100px;
+	width:45%;
+	display: block;
+}
+.content h1
+{
+	color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.content h2{
+    color: #1373AE;
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.content p
+{
+	color: white;
+    font-size: 18px;
+    margin-top: 0;
+
+}
+.content button
+{
+	padding: 10px 40px;
+}
+.btn_text
+{
+	font-size: 18px;
+}
+button img
+{
+	width: 19px;
+}
+
+.services
+{
+	background-color: #131B2A; 
+	padding: 10px 0;
+}
+
+.single
+{
+	border-right: 1px solid white;
+    width: 27.5%;
+    float: left;
+    padding: 12px 30px;
+
+}
+.single:last-child
+{
+ border-right: none;
+}
+.single_title
+{
+
+ overflow: hidden;
+ padding-top: 12px;
+}
+.s_img
+{
+	    width: 18%;
+	    /*border:1px solid red;*/
+	    float: left;
+}
+.s_img img
+{
+  width: 100%;
+}
+.s_head {
+    width: 60%;
+    /*border:1px solid red;*/
+    float: left;
+}
+.s_head h1
+{
+    color: white;
+    font-size: 27px;
+    margin:5px 0px;
+    font-weight: 400;
+}
+.s_head h2
+{
+    color: #1771B2;
+    font-size: 27px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.single_text p
+{
+	color: white; 
+}
+.contact
+{
+	background-color: #040811;
+	/*border:1px solid white;*/
+}
+.c1
+{
+	width:28%;
+	/*border: 1px solid white;*/
+	display: block;
+	float:left;
+}
+.c_header
+{
+	overflow: hidden;
+	display: block;
+	/*border: 1px solid white;*/
+	padding-top: 13px;
+    padding-bottom: 0px;
+    margin-left: 26px;
+
+}
+.c_header h2
+{
+	color: white;
+    float: left;
+    font-weight: 400;
+
+}
+.c_header h3
+{
+  color: #1373AE;
+    float: left;
+    margin-top: 24px;
+    padding-left: 10px;
+}
+.c_text_up
+{
+	display: block;
+	/*border: 1px solid white;*/
+	margin-left: 26px;
+
+}
+.c_text_up p
+{
+	color: white;
+}
+.c_text_down
+{
+	display: block;
+	/*border: 1px solid white;*/
+	margin-left: 26px;
+}
+.c_text_down
+{
+	color: white;
+}
+.c2
+{
+	width: 20%;
+    /* border: 1px solid white; */
+    float: left;
+    padding-left: 38px;
+}
+.c2_header
+{
+	overflow: hidden;
+	display: block;
+	/*border: 1px solid white;*/
+	padding-top: 13px;
+    padding-bottom: 0px;
+    margin-left: 26px;
+
+}
+.c2_header h2
+{
+	color: white;
+    float: left;
+    font-weight: 400;
+
+}
+.c2_header h3
+{
+  color: #1373AE;
+    float: left;
+    margin-top: 24px;
+    padding-left: 10px;
+}
+.c2_text_up
+{
+	display: block;
+	/*border: 1px solid white;*/
+	margin-left: 26px;
+	font-weight: 400;
+
+}
+.c2_text_up p
+{
+	color: white;
+}
+.c2_text_down
+{
+	display: block;
+	/*border: 1px solid white;*/
+	margin-left: 26px;
+}
+.c2_text_down
+{
+	color: white;
+}
+.c3
+{
+	float: left;
+	width:35%;
+	padding-left: 115px;
+}
+.c3 img
+{
+ width: 100%;
+}
+
+
+
+/*footer starts*/
+.footer
+{
+	background-color: #121B2A;
+}
+.f_text
+{
+    width: 50%;
+    /*border: 1px solid red;*/
+    float:left;
+    margin-top: 15px;
+}
+.f_text ul{
+	float: left;
+
+
+}
+.f_text ul li
+{
+	list-style: none;
+	float:left;
+
+}
+.f_text ul li a
+{
+	color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 16px;
+    display: block;
+
+}
+.f_text ul li:last-child a
+{
+	padding-right: 82px;
+}
+/*.f_text ul li:last-child a
+{
+	padding-right: 0;
+}*/
+.f_text p
+{
+	color:white;
+	padding-left: 52px;
+}
+.f_image1
+{
+	width: 10%;
+    float: left;
+    padding-left: 106px;
+    padding-top: 10px;
+}
+.f_image1 img
+{
+	width: 100%;
+}
+.f_image2 
+{
+	width: 10%;
+    float: left;
+    padding-left: 28px;
+    padding-top: 10px;
+}
+.f_image2 img
+{
+	width: 100%;
+}
